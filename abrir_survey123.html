@@ -1,11 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="refresh" content="0; url=survey123://?itemID=68922fac269f457ea9f5775cc70cf203&portalUrl=https://gis.htgoims.org/portal">
+<meta http-equiv="refresh" content="3; url=survey123://?itemID=68922fac269f457ea9f5775cc70cf203&portalUrl=https://gis.htgoims.org/portal">
 <title>Redirigiendo a Survey123...</title>
+<script>
+    setTimeout(function(){
+        var app = confirm("¿La app Survey123 no se abrió? Si no, puedes hacer clic en 'Abrir Survey123'.");
+        if(app){
+            window.location.href = "survey123://?itemID=68922fac269f457ea9f5775cc70cf203&portalUrl=https://gis.htgoims.org/portal";
+        }
+    }, 3000);
+</script>
 <style>
     body {
         font-family: Arial, sans-serif;
